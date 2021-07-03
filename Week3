@@ -1,0 +1,22 @@
+# Deeplearning_Coursea
+2021 하계 딥러닝
+
+[1], [2] 와 같은 표기로, 신경망의 Layer 들을 구분한다.
+
+한 신경망 프로세스에서, 같은 연산( 가령, Linear Regression 과 같은) 을 여러 번 할 일 이 생길 수 있다. 
+ㄴ> Sigmoid 이후 도출된 a  를 다시한번 Linear Regression 벡터연산에 집어넣는다고 한다던지
+
+이럴 때 상기한 중괄호의 Layer 표현이 필요하다. 
+
+Input Layer : 이전 과제에서 수직적으로 세워졌던, 1 열을 구성하는 데이터셋
+
+Hidden Layer : 프로세싱 과정에서 나온 마찬가지의 수직적인 데이터셋 - Linear 연산 이후의 z, Sigmoid 연산 이후의 a 와 같은.
+ㄴ> 실제로 Training Set 에서는 연산만 될 뿐 관측되지는 않는 값들이라고 하겠다.
+
+Output Layer : Logistic Regression 은 이러한 결과물로 얻었던 것이 Loss Function 이었다. 이것이 전체 Datset 에 대하여 감쇠평균 된 것이 Cost 였고
+
+각 Layer 들을 a[0] 과 같이  Activation 의 a 를 사용하여 a[n] 의 형태로 나타낸다.
+
+
+
+
